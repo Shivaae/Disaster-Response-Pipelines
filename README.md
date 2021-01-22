@@ -1,13 +1,14 @@
 # Disaster Response Pipeline Project <br>
 
 Table of Contents<br>
+
  1.Installation<br>
  2.Project Motivation<br>
  3.Project Descriptions<br>
  4.Files Descriptions<br>
  5.Instructions<br>
 
-Installation<br>
+Installation:<br>
 
 All libraries are available in Anaconda distribution of Python. The used libraries are:<br><br>
 
@@ -37,6 +38,8 @@ The project has three components which are:<br>
     b.Merges the two datasets<br>
     c.Cleans the data<br>
     d.Stores it in a SQLite database<br>
+    
+    
 2.ML Pipeline: train_classifier.py file contain the script to create ML pipline which:<br>
     a.Loads data from the SQLite database<br>
     b.Splits the dataset into training and test sets<br>
@@ -44,6 +47,7 @@ The project has three components which are:<br>
     d.Trains and tunes a model using GridSearchCV<br>
     e.Outputs results on the test set<br>
     f.Exports the final model as a pickle file<br>
+    
     
 3.Flask Web App: The web app enables the user to enter a disaster message, and then view the categories of the message.<br>
 
