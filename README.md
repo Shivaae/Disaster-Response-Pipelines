@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project <br>
 
-Table of Contents:<br>
+# Table of Contents:<br>
 
  1.Installation<br>
  2.Project Motivation<br>
@@ -11,7 +11,7 @@ Table of Contents:<br>
  7.Acknowledgement<br>
  
 
-Installation:<br>
+# Installation:<br>
 
 All libraries are available in Anaconda distribution of Python. The used libraries are:<br><br>
 
@@ -28,11 +28,11 @@ plotly<br>
 sqlite3<br>
 The code should run using Python versions 3.*.<br>
 
-Project Motivation:<br>
+# Project Motivation:<br>
 
 The goal of the project is to classify the disaster messages into categories. In this project, I analyzed disaster data from Figure Eight to build a model for an API that classifies disaster messages. Through a web app, the user can input a new message and get classification results in several categories. The web app also display visualizations of the data.<br>
 
-Project Descriptions:<br>
+# Project Descriptions:<br>
 
 The project has three components which are:<br>
 
@@ -56,7 +56,7 @@ The project has three components which are:<br>
 
 The web app also contains some visualizations that describe the data.<br>
 
-Files Descriptions:<br>
+# Files Descriptions:<br>
 
 The files structure is arranged as below:<br>
 
@@ -91,11 +91,11 @@ The files structure is arranged as below:<br>
 
 3. Go to http://0.0.0.0:3001/<br>
 
-GitHub Link:<br>
+# GitHub Link:<br>
 
-The The Github link to see the code is https://github.com/Shivaae/Disaster-Response-Pipelines <br>
+The Github link to see the code is https://github.com/Shivaae/Disaster-Response-Pipelines <br>
 
-Acknowledgement:<br>
+# Acknowledgement:<br>
 
 I would like to thanks Figure Eight and Udacity for providing the Dataset.<br>
 
