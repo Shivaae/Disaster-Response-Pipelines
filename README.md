@@ -7,6 +7,9 @@ Table of Contents:<br>
  3.Project Descriptions<br>
  4.Files Descriptions<br>
  5.Instructions<br>
+ 6.Github Link<br>
+ 7.Acknowledgement<br>
+ 
 
 Installation:<br>
 
@@ -87,3 +90,12 @@ The files structure is arranged as below:<br>
     `python run.py`<br>
 
 3. Go to http://0.0.0.0:3001/<br>
+
+GitHub Link:<br>
+
+The The Github link to see the code is https://github.com/Shivaae/Disaster-Response-Pipelines <br>
+
+Acknowledgement:<br>
+
+I would like to thanks Figure Eight and Udacity for providing the Dataset.<br>
+
