@@ -33,14 +33,14 @@ Project Descriptions:<br>
 
 The project has three components which are:<br>
 
-1. ETL Pipeline: process_data.py file contain the script to create ETL pipline which:<br>
+1. ETL Pipeline: process_data.py file contain the script to create ETL pipeline which:<br>
     a. Loads the messages and categories datasets<br>
     b. Merges the two datasets<br>
     c. Cleans the data<br>
     d. Stores it in a SQLite database<br>
     
     
-2. ML Pipeline: train_classifier.py file contain the script to create ML pipline which:<br>
+2. ML Pipeline: train_classifier.py file contain the script to create ML pipeline which:<br>
     a. Loads data from the SQLite database<br>
     b. Splits the dataset into training and test sets<br>
     c. Builds a text processing and machine learning pipeline<br>
