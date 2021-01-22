@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project <br>
 
-Table of Contents<br>
+Table of Contents:<br>
 
  1.Installation<br>
  2.Project Motivation<br>
@@ -25,31 +25,31 @@ plotly<br>
 sqlite3<br>
 The code should run using Python versions 3.*.<br>
 
-Project Motivation<br>
+Project Motivation:<br>
 
 The goal of the project is to classify the disaster messages into categories. In this project, I analyzed disaster data from Figure Eight to build a model for an API that classifies disaster messages. Through a web app, the user can input a new message and get classification results in several categories. The web app also display visualizations of the data.<br>
 
-Project Descriptions<br>
+Project Descriptions:<br>
 
 The project has three components which are:<br>
 
-1.ETL Pipeline: process_data.py file contain the script to create ETL pipline which:<br>
-    a.Loads the messages and categories datasets<br>
-    b.Merges the two datasets<br>
-    c.Cleans the data<br>
-    d.Stores it in a SQLite database<br>
+1. ETL Pipeline: process_data.py file contain the script to create ETL pipline which:<br>
+    a. Loads the messages and categories datasets<br>
+    b. Merges the two datasets<br>
+    c. Cleans the data<br>
+    d. Stores it in a SQLite database<br>
     
     
-2.ML Pipeline: train_classifier.py file contain the script to create ML pipline which:<br>
-    a.Loads data from the SQLite database<br>
-    b.Splits the dataset into training and test sets<br>
-    c.Builds a text processing and machine learning pipeline<br>
-    d.Trains and tunes a model using GridSearchCV<br>
-    e.Outputs results on the test set<br>
-    f.Exports the final model as a pickle file<br>
+2. ML Pipeline: train_classifier.py file contain the script to create ML pipline which:<br>
+    a. Loads data from the SQLite database<br>
+    b. Splits the dataset into training and test sets<br>
+    c. Builds a text processing and machine learning pipeline<br>
+    d. Trains and tunes a model using GridSearchCV<br>
+    e. Outputs results on the test set<br>
+    f. Exports the final model as a pickle file<br>
     
     
-3.Flask Web App: The web app enables the user to enter a disaster message, and then view the categories of the message.<br>
+3. Flask Web App: The web app enables the user to enter a disaster message, and then view the categories of the message.<br>
 
 The web app also contains some visualizations that describe the data.<br>
 
